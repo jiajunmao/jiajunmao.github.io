@@ -10,10 +10,10 @@ featured: true
 publication: "SuperComputing, 2023."
 links:
   - icon_pack: fas
-    icon: scroll
-    name: Link
+    icon: file
+    name: PDF
     url: 'https://ucare.cs.uchicago.edu/pdf/sc23-mlec.pdf'
-  - icon_pack: ai
+  - icon_pack: fas
     icon: github
     name: Artifact
     url: 'https://github.com/ucare-uchicago/mlec-sim'
