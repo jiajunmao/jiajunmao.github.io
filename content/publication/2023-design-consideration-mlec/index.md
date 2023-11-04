@@ -1,7 +1,7 @@
 ---
 title: "Design Considerations and Analysis of Multi-Level Erasure Coding in Large-Scale Data Centers"
-date: 2023
-publishDate:  2023
+date: 2023-06-16
+publishDate:  2023-06-16
 authors: ["Meng Wang", "Jiajun Mao", "Rajdeep Rana", "John Bent", "Serkay Olmez", "Anjus George", "Garrett Wilson Ransom", "Jun Li", "Haryadi S Gunawi"]
 publication_types: ["2"]
 abstract: "
