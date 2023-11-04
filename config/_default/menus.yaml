@@ -18,9 +18,9 @@ main:
 #  - name: Blog
 #    url: '/blog/'
 #    weight: 60
- # - name: CV
- #   url: '/files/cv.pdf'
- #   weight: 70
+  - name: CV
+    url: '/files/cv/CV2023-11.pdf'
+    weight: 70
   
 # Sub-home menu
 #  - name: About
