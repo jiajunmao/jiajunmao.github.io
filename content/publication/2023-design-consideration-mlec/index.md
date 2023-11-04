@@ -13,7 +13,7 @@ links:
     icon: file
     name: PDF
     url: 'https://ucare.cs.uchicago.edu/pdf/sc23-mlec.pdf'
-  - icon_pack: fas
+  - icon_pack: fab
     icon: github
     name: Artifact
     url: 'https://github.com/ucare-uchicago/mlec-sim'
