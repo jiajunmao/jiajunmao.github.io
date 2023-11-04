@@ -59,7 +59,7 @@ social:
       header: true
   - icon: cv
     icon_pack: ai
-    link: files/cv/cv.pdf
+    link: files/cv/CV2023-11.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'jiajunm@uchicago.edu'
