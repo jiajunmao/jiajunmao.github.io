@@ -2,11 +2,11 @@
 
 
 # Display name
-title: Simon Gravelle
+title: Jiajun Mao
 
 # Full name (for SEO)
-first_name: Simon
-last_name: Gravelle
+first_name: Jiajun
+last_name: Mao
 
 # Status emoji
 status:
@@ -16,21 +16,21 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: MSCA Fellow and CNRS future recruit
+role: Undergraduate CS Student @ UChicago
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: LIPhy, University Grenoble Alpes
-    url: https://liphy.univ-grenoble-alpes.fr/
+# organizations:
+#   - name: LIPhy, University Grenoble Alpes
+#     url: https://liphy.univ-grenoble-alpes.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a computer physicist in soft matter and fluids at interfaces at LIPhy in Grenoble, France.
+bio: Undergraduate CS Student @ UChicago
 
 # Interests to show in About widget
 interests:
-  - Soft Matter
-  - Fluid at interface
-  - Computer simulations
+  - Computer Systems
+  - Machine Learning for Computer Systems
+  - Storage Systems
 
 # Education to show in About widget
 education:
@@ -47,21 +47,14 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:simon.gravelle@live.fr
+    link: mailto:jiajunm@uchicago.edu
     # link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GravelleSimon
-    label: Follow me on Twitter
-  - icon: mastodon
-    icon_pack: fab
-    link: https://mastodon.social/@simongravelle
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=9fD2JlYAAAAJ&hl=fr
+    link: https://scholar.google.co.in/citations?user=7-MV8MgAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/simongravelle
+    link: https://github.com/jiajunmao
     display:
       header: true
   - icon: cv
@@ -77,16 +70,4 @@ highlight_name: true
 
 **About me**
 
-I am a physicist in soft matter and fluids at interfaces at [LIPhy](https://liphy.univ-grenoble-alpes.fr/) in Grenoble (France). In 2022 I received a [MSCA](https://marie-sklodowska-curie-actions.ec.europa.eu/) grant (*NanoSep*) to study the demixing of fluid mixtures by hybrid nanoporous materials, and I will soon be working at [CNRS](https://www.cnrs.fr/).
-
-**Open source and open data**
-
-* [MAICoS](https://maicos-devel.gitlab.io/maicos/index.html), a Python toolkit for analyzing confined molecular simulations
-* [NMRforMD](https://nmrformd.readthedocs.io), a Python script for calculating hydrogen NMR relaxation rates from molecular dynamics simulations
-* [Github](https://github.com/simongravelle/) repository containing molecular simulation scripts and data
-
-**Outreach**
-
-* [LAMMPS tutorials](https://lammpstutorials.github.io) for beginners and advanced LAMMPS users
-* [GROMACS tutorials](https://gromacstutorials.github.io) for beginners and advanced GROMACS users
-* [gallery of animations](https://www.youtube.com/@SimonGravelle) of molecular systems
+I am a current undergraduate student at University of Chicago, majoring in Computer Science with System concentration. My research interest lies in computer systems and machine learning for computer systems.
