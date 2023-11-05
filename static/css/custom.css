@@ -1,5 +1,6 @@
 /* to make "white bg" transparent */
 .home-section {
+  padding-top: 20%;
   background-color: transparent;
   z-index: 1;
 }
