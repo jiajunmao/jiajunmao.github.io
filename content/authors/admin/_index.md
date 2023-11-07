@@ -1,6 +1,4 @@
 ---
-
-
 # Display name
 title: Jiajun Mao
 
