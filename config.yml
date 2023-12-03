@@ -66,10 +66,10 @@ params:
               url: papers/
             - name: Courses
               url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+            # - name: Data
+            #   url: data/
+            # - name: Newsletter
+            #   url: https://pmichaillat.substack.com
             - name: Tags
               url: tags/
             - name: Archive
