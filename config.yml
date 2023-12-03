@@ -77,7 +77,7 @@ params:
               url: archive/
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: CV2023-11.pdf
         - name: Email
           url: mailto:jiajunmao@uchicago.edu
         # - name: Location
