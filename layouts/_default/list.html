@@ -60,12 +60,12 @@
 {{- range $index, $page := $paginator.Pages }}
 {{- partial "card_list.html" (dict "context" . "list_type" "academic project" "term" $term "page" $page "index" $index "paginator" $paginator)}}
 {{- end }}
-
+<hr color="#d6d6d6" style="margin: 2em 0em"/>
 <h2 style="margin-bottom: 1em">Startup Projects</h2>
 {{- range $index, $page := $paginator.Pages }}
 {{- partial "card_list.html" (dict "context" . "list_type" "startup project" "term" $term "page" $page "index" $index "paginator" $paginator)}}
 {{- end }}
-
+<hr color="#d6d6d6" style="margin: 2em 0em"/>
 <h2 style="margin-bottom: 1em">Fun Projects</h2>
 {{- range $index, $page := $paginator.Pages }}
 {{- partial "card_list.html" (dict "context" . "list_type" "fun project" "term" $term "page" $page "index" $index "paginator" $paginator)}}

@@ -3,7 +3,7 @@ title: "Shepherd Money: Intelligent Personal Wealth Management and Goal-Based Bu
 date: 2022-11-02
 tags: ["Startup"]
 author: "In Progress"
-summary: "We are currently working a smart personal wealth management and goal-based budgeting powered by LLM" 
+summary: "Currently working on a smart personal wealth management and goal-based budgeting powered by LLM" 
 cover:
     image: "sm-cover.png"
     alt: "Figure caption"
