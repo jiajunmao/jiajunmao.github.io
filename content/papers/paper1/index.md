@@ -1,8 +1,8 @@
 ---
-title: "Paper Title 1" 
-date: 2012-06-01
-tags: ["keyword 1","keyword 2","keyword 3"]
-author: "Author Name"
+title: "Design Considerations and Analysis of Multi-Level Erasure Coding in Large-Scale Data Centers" 
+date: 2023-11-12
+tags: ["MLEC","Erasure Code","Storage System"]
+author: "Meng Wang, Jiajun Mao, Rajdeep Rana, John Bent, Serkay Olmez, Anjus George, Garrett Wilson Ransom, Jun Li, Haryadi S Gunawi"
 description: "This paper shows things. Published in Journal Name, 2012." 
 summary: "This paper shows things using various techniques and data." 
 cover:

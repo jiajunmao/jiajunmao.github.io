@@ -65,21 +65,21 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
+            - name: Projects
+              url: projects/
             # - name: Data
             #   url: data/
             # - name: Newsletter
             #   url: https://pmichaillat.substack.com
-            - name: Tags
-              url: tags/
-            - name: Archive
+            # - name: Tags
+            #   url: tags/
+            - name: Blogs
               url: archive/
     socialIcons:
         - name: CV
           url: CV2023-11.pdf
         - name: Email
-          url: mailto:jiajunmao@uchicago.edu
+          url: mailto:jiajunm@uchicago.edu
         # - name: Location
         #   url: location/
         # - name: Office Hours
