@@ -52,7 +52,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Hello, This is Jiajun Mao
+          title: "Nihao<span style='font-size: 15px'>(你好)</span>, This is Jiajun Mao<span style='font-size: 15px'>(毛嘉骏)</span>"
           subtitle: "I am currently a joint BS/MS computer science student at **University of Chicago** with **computer systems** concentration. My research area lies in improving reliability, 
           efficiency and performance of storage systems through novel erasure coding schemes and placement schemes.<br/><br/>
           
@@ -76,6 +76,8 @@ params:
               url: blogs/
             - name: Tags
               url: tags/
+            - name: My Cats 😺
+              url: https://images.naturecraft.world/album/cats.Xrv
     socialIcons:
         - name: CV
           url: CV2023-11.pdf
