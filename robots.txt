@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://jiaijunmao.github.io/sitemap.xml
+Sitemap: https://jiajunmao.github.io/sitemap.xml
