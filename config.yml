@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Prof. Name
+baseURL: "https://jiaijunmao.github.io/" 
+title: Jiajun Mao
 paginate: 20
 theme: PaperMod
 
@@ -25,8 +25,10 @@ menu:
           weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
+    description: "I am currently a joint BS/MS computer science student at **University of Chicago** with **computer systems** concentration. I research area lies in improving reliability, 
+          efficiency and performance of storage systems through novel erasure coding schemes and placement schemes.<br/><br/>
+          
+          I am a member of [UChicago systems research on Availability, Reliability and Efficiency(UCARE)](https://ucare.cs.uchicago.edu/) where I am fortunate to be advised by [**Professor Haryadi Gunawi**](http://people.cs.uchicago.edu/~haryadi/)."
     author: Name
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -50,12 +52,15 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
+          title: Hello, This is Jiajun Mao
+          subtitle: "I am currently a joint BS/MS computer science student at **University of Chicago** with **computer systems** concentration. I research area lies in improving reliability, 
+          efficiency and performance of storage systems through novel erasure coding schemes and placement schemes.<br/><br/>
+          
+          I am a member of [UChicago systems research on Availability, Reliability and Efficiency(UCARE)](https://ucare.cs.uchicago.edu/) where I am fortunate to be advised by [**Professor Haryadi Gunawi**](http://people.cs.uchicago.edu/~haryadi/)."
+          imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
+          imageTitle: Jiajun Mao
           buttons:
             - name: Papers
               url: papers/
@@ -73,30 +78,30 @@ consequat."
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:jiajunmao@uchicago.edu
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
         - name: GitHub
           url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: Twitter
+        #   url: https://twitter.com/pmichaillat
 
     assets:
         disableHLJS: true
-        disableScrollBarStyle: true
+        disableScrollBarStyle: false
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Jiajun Mao"
       icon: favicon.ico
       iconHeight: 18
 
