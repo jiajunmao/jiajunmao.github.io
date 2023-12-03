@@ -1,0 +1,40 @@
+{{- $page := .page }}
+{{- $index := .index }}
+{{- $term := .term }}
+{{- $paginator := .paginator}}
+
+{{- $class := "post-entry" }}
+
+{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+{{- $class = "first-entry" }}
+{{- else if $term }}
+{{- $class = "post-entry tag-entry" }}
+{{- end }}
+
+{{- if eq .context.Params.type .list_type}}
+<article class="{{ $class }}">
+  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+  {{- partial "cover.html" (dict "cxt" .context "IsHome" true "isHidden" $isHidden) }}
+
+  <hr color="#d6d6d6"/>
+
+  <header class="entry-header">
+    <h2>
+      {{- .context.Title }}
+      {{- if .context.Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h2>
+  </header>
+  {{- if (ne (.context.Params.hideSummary) true) }}
+  <div class="entry-content">
+    <p>{{ .context.Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not (.context.Params.hideMeta) }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" .context -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .context.Title | plainify }}" href="{{ .context.Permalink }}"></a>
+</article>
+{{- end}}

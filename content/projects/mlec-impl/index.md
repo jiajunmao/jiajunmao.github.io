@@ -13,7 +13,7 @@ cover:
 #     Text: "YouTube playlist"
 showToc: true
 disableAnchoredHeadings: false
-
+type: academic
 ---
 
 ## Introduction
