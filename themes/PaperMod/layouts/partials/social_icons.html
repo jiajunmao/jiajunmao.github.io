@@ -1,7 +1,11 @@
 <div class="social-icons">
+
     {{- range . }}
-    <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ (.title | default .name) | title }}">
+    <a style="display: inline-flex; align-items: center; height: 100%" href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ (.title | default .name) | title }}">
         {{ partial "svg.html" . }}
+
+        <div style="display: inline-block; margin-left: 5px">{{ .name }}</div>
     </a>
     {{- end }}
+    <hr color="#d6d6d6"/>
 </div>
