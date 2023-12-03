@@ -71,6 +71,8 @@ params:
             #   url: tags/
             - name: Blogs
               url: blogs/
+            - name: Tags
+              url: tags/
     socialIcons:
         - name: CV
           url: CV2023-11.pdf

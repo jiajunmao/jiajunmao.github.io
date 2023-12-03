@@ -1,17 +1,16 @@
 ---
-title: "Course Title 1"
-date: 2022-03-10
-tags: ["keyword 1","keyword 2","keyword 3"]
-author: "Prof. Name"
-description: "This graduate course presents things." 
-summary: "This graduate course presents various methods and results." 
+title: "Implementation of Multi-Level Erasure Code in HDFS and ZFS"
+date: 2023-12-02
+tags: ["MLEC","HDFS", "ZFS","Storage System"]
+author: "In Progress"
+summary: "We are currently working on implementing Multi-Level Erasure Code(MLEC) in HDFS and ZFS." 
 cover:
-    image: "course1.png"
+    image: "hdfs-arch.png"
     alt: "Figure caption"
     relative: false
-editPost:
-    URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
-    Text: "YouTube playlist"
+# editPost:
+#     URL: "https://youtube.com/playlist?list=PL5zEkRHvv2GxQlFbNf-YqSPMP6ePc3DQf"
+#     Text: "YouTube playlist"
 showToc: true
 disableAnchoredHeadings: false
 
@@ -19,15 +18,12 @@ disableAnchoredHeadings: false
 
 ## Introduction
 
-This course covers research topics related to things. It tries to answer several questions: 
+We are currently working on implementing [Multi-Level Erasure Code(MLEC)](http://localhost:1313/papers/design-consideration-mlec/) in HDFS and ZFS. We are going to implement C/C, C/D, D/C, D/D and all the repair schemes mentioned in the MLEC paper.
 
-+ Why this? 
-+ Why that? 
-+ What about this? 
-+ What about that?
+We are aiming for release by summer/autumn 2024.
 
 
----
+<!-- ---
 
 ## Part 1
 
@@ -90,4 +86,4 @@ This section introduces other things.
 This section turns to other things. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
