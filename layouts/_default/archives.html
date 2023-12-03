@@ -27,7 +27,7 @@
           {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
         </h3>
         <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-        <span class="button" style="padding: 4px; font-size: 11px">{{- .Params.type }}</span>
+        <span class="button" style="padding: 3px 6px; font-size: 11px; text-align: center">{{- .Params.type }}</span>
       </div>
       {{- end }}
       {{- end }}

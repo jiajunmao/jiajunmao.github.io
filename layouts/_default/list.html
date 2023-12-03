@@ -72,6 +72,12 @@
 {{- end }}
 {{- end }}
 
+{{- if strings.Contains .RelPermalink "/tags/"}}
+{{- range $index, $page := $paginator.Pages }}
+{{- partial "card_list.html" (dict "context" . "list_type" "all" "term" $term "page" $page "index" $index "paginator" $paginator)}}
+{{- end }}
+{{- end }}
+
 
 
 {{- if gt $paginator.TotalPages 1 }}

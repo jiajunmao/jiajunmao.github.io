@@ -20,6 +20,9 @@ menu:
         - name: Blogs
           url: blogs/
           weight: 3
+        - name: Tags
+          url: tags/
+          weight: 4
 
 params:
     description: "I am currently a joint BS/MS computer science student at **University of Chicago** with **computer systems** concentration. My research area lies in improving reliability, 

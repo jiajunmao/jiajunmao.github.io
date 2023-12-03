@@ -12,7 +12,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{- if eq .context.Params.type .list_type}}
+{{- if or (eq .context.Params.type .list_type) (eq .list_type "all")}}
 <article class="{{ $class }}">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" .context "IsHome" true "isHidden" $isHidden) }}
