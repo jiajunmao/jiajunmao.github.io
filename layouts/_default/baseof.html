@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
-
 <head>
     {{- partial "head.html" . }}
 </head>
@@ -13,6 +12,12 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
+
+    <script src="/plugins/photoswipe/umd/photoswipe.umd.min.js"></script>
+    <script src="/plugins/photoswipe/umd/photoswipe-lightbox.umd.min.js"></script>
+
+    <link rel="stylesheet" href="/plugins/photoswipe/photoswipe.css">
+
     {{- if not .IsHome  }}
     {{- partialCached "header.html" . .Page -}}
     {{- end }}

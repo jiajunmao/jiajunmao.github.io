@@ -20,7 +20,7 @@
     </h3>
     <div class="archive-posts">
       {{- range .Pages }}
-      {{- if eq .Kind "page" }}
+      {{- if and (eq .Kind "page") (ne .Params.type "hidden") }}
       <div class="archive-entry">
         <h3 class="archive-entry-title">
           {{- .Title | markdownify }}
