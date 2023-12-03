@@ -12,7 +12,7 @@ cover:
 editPost:
     URL: "https://doi.org/10.1145/3581784.3607072"
     Text: "SC 2023"
-
+type: paper
 ---
 
 ---
