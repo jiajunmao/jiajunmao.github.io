@@ -79,7 +79,7 @@ params:
             - name: Tags
               url: tags/
             - name: My Cats 😺
-              url: https://images.naturecraft.world/album/cats.Xrv
+              url: https://images.iungo.ink/album/cats.Xrv
     socialIcons:
         - name: CV
           url: CV2023-12.pdf
