@@ -1,0 +1,55 @@
+{{- define "main" }}
+<article class="post-single cats-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+  <div id="cat-gallery" class="cat-gallery">
+    {{- range $index, $filename := hugo.Data.cats }}
+    {{- $stem := strings.TrimSuffix ".jpg" $filename }}
+    {{- $base := "https://minio.iungo.ink/chevereto-images/images/2023/12/03/" }}
+    <a href="{{ printf "%s%s" $base $filename }}"
+       data-pswp-width="7952" data-pswp-height="5304"
+       aria-label="Open cat photo {{ add $index 1 }} of {{ len hugo.Data.cats }}"
+       target="_blank" rel="noopener">
+      <img src="{{ printf "%s%s.md.jpg" $base $stem }}"
+           alt="Wrigley and Fenway, photo {{ add $index 1 }}"
+           width="500" height="334" loading="lazy" decoding="async">
+    </a>
+    {{- end }}
+  </div>
+</article>
+<style>
+  .cat-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px;
+    margin: 24px 0 36px;
+  }
+  .cat-gallery a {
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--entry);
+  }
+  .cat-gallery a:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+  }
+  .cat-gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 500 / 334;
+    object-fit: cover;
+  }
+</style>
+<script>
+  const catLightbox = new PhotoSwipeLightbox({
+    gallery: '#cat-gallery',
+    children: 'a',
+    pswpModule: PhotoSwipe
+  });
+  catLightbox.init();
+</script>
+{{- end }}
